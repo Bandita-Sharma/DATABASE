@@ -9,12 +9,12 @@ print()
 
 #Que2-->Take students name and marks(between 0-100) as input from user 10 times using loops.
 print('Enter Detail Of Student')
-for i in range (1,5):
+for i in range (10):
     fn=input('enter the name:')
     mrk=int(input('enter the marks:'))
 
 #Que3-->Add these values in two columns named "Name" and "Marks" with the appropriate data type.
-for i in range(1,5):
+for i in range(10):
     collection.insert_one({'Name':fn,'Mark':mrk})
 print('VALUES INSERTED IN TABLE')
 
